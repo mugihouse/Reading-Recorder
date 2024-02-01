@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BookDetails } from "./BookDetails";
+import BookDetails from "./BookDetails";
 
 export default function LinkBookDetails({ index, book }) {
   return (
