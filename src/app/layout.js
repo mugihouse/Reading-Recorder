@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
             <a
               className="no-underline text-blue-300"
               href="https://wings.msn.to/"
+              // 別タブで開く
               target="_blank"
             >
               Support
