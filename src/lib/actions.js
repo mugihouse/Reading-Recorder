@@ -9,7 +9,7 @@ export async function addReview(data) {
   const book = await getBookById(data.get("id"));
   const input = {
     title: book.title,
-    author: book.author ? book.author : "著者不明",
+    author: book.authors,
     price: Number(book.price),
     publisher: book.publisher,
     published: book.published,
