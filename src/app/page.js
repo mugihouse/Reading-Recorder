@@ -1,6 +1,6 @@
 import LinkBookDetails from "@/components/LinkedBookDetails";
 import { getAllReviews } from "@/lib/getter";
-import BooksLayout from "../app/books/[...keyword]/layout";
+import BooksLayout from "./books/[[...keyword]]/layout";
 
 export const dynamic = "force-dynamic";
 
